@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D’Hally Crochet — Hecho a mano con amor</title>
+  <meta name="description" content="Amigurumis, carteras y productos tejidos a crochet. Encargos personalizados. Envíos nacionales.">
+  <meta property="og:title" content="D’Hally Crochet" />
+  <meta property="og:description" content="Amigurumis, carteras y más — hechos a mano." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://instagram.com/d_hallycrochet" />
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    :root{
+      --bg:#1a2a1c;--card:#1f2f21;--muted:#a6b8a0;--brand:#f2c200;--brand-2:#ff8a00;--text:#f5f7f2;
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Inter,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    a{color:var(--brand);text-decoration:none}
+    header{position:sticky;top:0;backdrop-filter:saturate(1.2) blur(8px);background:rgba(15,17,21,.7);border-bottom:1px solid rgba(255,255,255,.06);z-index:20}
+    .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{display:flex;gap:12px;align-items:center;font-weight:700}
+    .brand img{width:40px;height:40px;border-radius:12px;box-shadow:var(--shadow)}
+    .links{display:flex;gap:18px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:14px;background:linear-gradient(135deg,var(--brand),#7dffd9);color:#041014;font-weight:700;box-shadow:var(--shadow)}
+    .btn.secondary{background:transparent;color:var(--text);border:1px solid rgba(255,255,255,.12)}
+
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:26px;padding:54px 0 28px}
+    .hero h1{font-size: clamp(28px, 3.8vw, 48px);line-height:1.1;margin:0 0 10px}
+    .hero p{color:var(--muted);margin:0 0 22px}
+    .hero-card{background:var(--card);border:1px solid rgba(255,255,255,.06);padding:22px;border-radius:22px;box-shadow:var(--shadow)}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 20px}
+    .badge{padding:6px 10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);color:var(--muted);font-size:12px}
+
+    h2.section{margin:28px 0 12px;font-size:clamp(22px,3vw,30px)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+    .card img{width:100%;aspect-ratio:1/1;object-fit:cover}
+    .card .info{padding:14px}
+    .price{font-weight:800}
+    .muted{color:var(--muted)}
+    .footer{margin:36px 0 70px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .notice{font-size:12px;color:var(--muted)}
+    .social{display:flex;gap:10px}
+    .social a{padding:8px 10px;border-radius:12px;border:1px solid rgba(255,255,255,.12)}
+
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr 1fr}
+      .footer{grid-template-columns:1fr}
+    }
+    @media (max-width:600px){
+      .grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <img src="img/logo.jpg" alt="D’Hally Crochet" />
+        <span>D’Hally Crochet</span>
+      </div>
+      <div class="links">
+        <a class="secondary btn" href="#catalogo">Catálogo</a>
+        <a class="btn" href="https://wa.me/18297788394?text=Hola%20D’Hally%20Crochet%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Encargar por WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <h1>Amigurumis y tejidos a crochet <span style="color:var(--brand)">hechos con amor</span> 🧶</h1>
+        <p>Pollitos, carteras, llaveros y piezas personalizadas. El regalo perfecto, hecho a mano.</p>
+        <div class="badges">
+          <span class="badge">Personalizados</span>
+          <span class="badge">Hecho a mano</span>
+          <span class="badge">Pedidos por WhatsApp</span>
+          <span class="badge">Envíos nacionales</span>
+        </div>
+        <div class="cta">
+          <a class="btn" href="https://wa.me/18297788394?text=Hola%20D’Hally%20Crochet%2C%20quiero%20un%20amigurumi" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+          <a class="btn secondary" href="https://instagram.com/d_hallycrochet" target="_blank" rel="noopener">Ver Instagram</a>
+        </div>
+        <p class="notice">Reemplaza el número de WhatsApp en los enlaces y sube tus fotos a /img para el catálogo.</p>
+      </div>
+      <div class="hero-card">
+        <strong>¿Encargos personalizados?</strong>
+        <p class="muted">Mándanos tu idea (animalito, personaje, colores y tamaño) y te respondemos con precio y tiempo de entrega.</p>
+        <ul>
+          <li>Amigurumis desde <b class="price">$</b></li>
+          <li>Carteras y accesorios</li>
+          <li>Llaveros y souvenirs</li>
+        </ul>
+      </div>
+    </section>
+
+    <h2 id="catalogo" class="section">Catálogo destacado</h2>
+    <section class="grid">
+      <!-- Reemplaza las imágenes por tus fotos en /img -->
+      <article class="card">
+        <img src="img/pollito.jpg" alt="Pollito amigurumi"/>
+        <div class="info">
+          <div><strong>Pollito amigurumi</strong></div>
+          <div class="muted">Suave y adorable 🐣</div>
+          <div class="price">$</div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="img/cartera.jpg" alt="Cartera crochet"/>
+        <div class="info">
+          <div><strong>Cartera crochet</strong></div>
+          <div class="muted">Colores a elección</div>
+          <div class="price">$</div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="img/llavero.jpg" alt="Llavero tejido"/>
+        <div class="info">
+          <div><strong>Llavero tejido</strong></div>
+          <div class="muted">Ideal para regalo</div>
+          <div class="price">$</div>
+        </div>
+      </article>
+    </section>
+
+    <h2 class="section">Cómo encargar</h2>
+    <section class="hero-card">
+      <ol>
+        <li>Escríbenos por <a href="https://wa.me/18297788394?text=Hola%20D’Hally%20Crochet" target="_blank" rel="noopener">WhatsApp</a> o <a href="https://instagram.com/d_hallycrochet" target="_blank" rel="noopener">Instagram</a>.</li>
+        <li>Cuéntanos qué quieres (tamaño, colores, referencia).</li>
+        <li>Te confirmamos precio y tiempo de entrega.</li>
+      </ol>
+    </section>
+
+    <h2 class="section">Síguenos</h2>
+    <section class="footer">
+      <div class="hero-card">
+        <div class="social">
+          <a href="https://instagram.com/d_hallycrochet" target="_blank" rel="noopener">Instagram</a>
+          <a href="mailto:hola@dhallycrochet.com">Correo</a>
+          <a href="#" onclick="copyIG(event)">Copiar @d_hallycrochet</a>
+        </div>
+        <p class="muted">Publicamos novedades, reels y pedidos entregados.</p>
+      </div>
+      <div class="hero-card">
+        <strong>Política de pedidos</strong>
+        <p class="muted">Tiempo estimado según complejidad. Anticipo para personalizados. Cambios y devoluciones dentro de las 48h tras recibir el producto si hay defectos.</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function copyIG(e){
+      e.preventDefault();
+      navigator.clipboard.writeText('@d_hallycrochet').then(()=>{
+        alert('Usuario copiado: @d_hallycrochet');
+      });
+    }
+  </script>
+</body>
+</html>
