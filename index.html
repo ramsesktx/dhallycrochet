@@ -56,13 +56,27 @@
     @media (max-width:600px){
       .grid{grid-template-columns:1fr}
     }
+  /* Responsive tweaks */
+    img{max-width:100%;height:auto}
+    @media (max-width:768px){
+      .links{gap:10px;flex-wrap:wrap}
+      .links .btn{flex:1 1 100%;justify-content:center}
+      .hero{grid-template-columns:1fr;padding:28px 0 10px}
+    }
+    @media (max-width:480px){
+      .brand span{display:none}
+      .wrap{padding:0 14px}
+      .hero h1{font-size:clamp(22px,7vw,28px)}
+      .card .info{padding:12px}
+      .btn{width:100%;justify-content:center}
+    }
   </style>
 </head>
 <body>
   <header>
     <div class="wrap nav">
       <div class="brand">
-        <img src="img/logo.jpg" alt="D’Hally Crochet" />
+        <img loading="lazy" src="img/logo.jpg" alt="D’Hally Crochet" />
         <span>D’Hally Crochet</span>
       </div>
       <div class="links">
@@ -104,7 +118,7 @@
     <section class="grid">
       <!-- Reemplaza las imágenes por tus fotos en /img -->
       <article class="card">
-        <img src="img/pollito.jpg" alt="Pollito amigurumi"/>
+        <img loading="lazy" src="img/pollito.jpg" alt="Pollito amigurumi"/>
         <div class="info">
           <div><strong>Pollito amigurumi</strong></div>
           <div class="muted">Suave y adorable 🐣</div>
@@ -112,7 +126,7 @@
         </div>
       </article>
       <article class="card">
-        <img src="img/cartera.jpg" alt="Cartera crochet"/>
+        <img loading="lazy" src="img/cartera.jpg" alt="Cartera crochet"/>
         <div class="info">
           <div><strong>Cartera crochet</strong></div>
           <div class="muted">Colores a elección</div>
@@ -120,7 +134,7 @@
         </div>
       </article>
       <article class="card">
-        <img src="img/llavero.jpg" alt="Llavero tejido"/>
+        <img loading="lazy" src="img/llavero.jpg" alt="Llavero tejido"/>
         <div class="info">
           <div><strong>Llavero tejido</strong></div>
           <div class="muted">Ideal para regalo</div>
